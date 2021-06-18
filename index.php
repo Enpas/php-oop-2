@@ -5,11 +5,11 @@ require_once __DIR__ . "/classes/product.php";
 require_once __DIR__ . "/classes/user.php";
 require_once __DIR__ . "/classes/premium_user.php";
 
-$product1 = new Product("Pringles", 3, "/../assets/img/pringles.jpg", "La qualità delle patate è una della migliori; la croccantezza è pari a quella di uno stuzzicadenti e il sapore è quello afrodisiaco tipico delle Pringles", "Patatine", false);
-$product2 = new Product("Fonzies", 2, "/../assets/img/fonzies.jpg", "La qualità delle patatine è inesistente, il formaggio copre completamente il sapore e la sapidità delle patate; Non sono croccanti e sembrano fatte di cartoncino.", "Patatine", true);
-$user1 = new User("Giorgio", "Vanni","/../assets/img/Vanni.jpg");
-$premiumuser1 = new PremiumUser("Cristina", "D'Avena","/../assets/img/Cristina.jpg", "2");
-$premiumuser2 = new PremiumUser("Pietro", "Smusi", "/../assets/img/Smusi.jpg", "1");
+$product1 = new Product("Pringles", 3, "/php-oop-2/assets/img/pringles.jpg", "La qualità delle patate è una della migliori; la croccantezza è pari a quella di uno stuzzicadenti e il sapore è quello afrodisiaco tipico delle Pringles", "Patatine", false);
+$product2 = new Product("Fonzies", 2, "/php-oop-2/assets/img/fonzies.jpg", "La qualità delle patatine è inesistente, il formaggio copre completamente il sapore e la sapidità delle patate; Non sono croccanti e sembrano fatte di cartoncino.", "Patatine", true);
+$user1 = new User("Giorgio", "Vanni","/php-oop-2/assets/img/Vanni.jpg");
+$premiumuser1 = new PremiumUser("Cristina", "D'Avena","/php-oop-2/assets/img/Cristina.jpg", "2");
+$premiumuser2 = new PremiumUser("Pietro", "Smusi", "/php-oop-2/assets/img/Smusi.jpg", "1");
 ?>
 
 
